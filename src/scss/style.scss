@@ -1,0 +1,53 @@
+// Main Sass File
+
+//Colour Variables
+
+$background-colour: #203859;
+$footer-colour: #16243d;
+$primary-colour: #203859;
+$secondary-colour: #666;
+
+//Homepage//
+body{
+  background-color: $background-colour;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.6em;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 500;
+  text-align: justify;
+  -webkit-font-smoothing: antialiased;
+  padding-top: 65px;
+  min-height: 100%;
+}
+
+hr{
+  border-color: $secondary-colour;
+}
+
+#logo{
+  width: 230px;
+}
+
+//Navbar//
+.navbar{
+  background-color: #fff;
+}
+
+//Image Strip//
+#image_strip{
+  width: 100%;
+  max-height: 400px;
+  background-image: url(../img/homepage_nature.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+//Welcome Section//
+#welcome{
+  h3{
+    font-size: 30px;
+  }
+}
