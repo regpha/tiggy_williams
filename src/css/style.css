@@ -5,10 +5,14 @@ body {
   line-height: 1.6em;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 500;
-  text-align: justify;
   -webkit-font-smoothing: antialiased;
   padding-top: 65px;
-  min-height: 100%; }
+  min-height: 100%;
+  text-align: justify; }
+
+h3 {
+  font-size: 30px;
+  text-align: left; }
 
 hr {
   border-color: #666; }
@@ -27,5 +31,61 @@ hr {
   background-repeat: no-repeat;
   background-size: cover; }
 
-#welcome h3 {
-  font-size: 30px; }
+#servicesSection h2 {
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: 0.8px; }
+
+#about_opening {
+  text-align: left; }
+
+#contact {
+  background-color: #fff;
+  color: #666;
+  padding-top: 65px;
+  text-align: left; }
+  #contact .navbar {
+    border-bottom: 1px solid #666; }
+
+#contactSection h4 {
+  color: #203859; }
+
+#contactSection .contact_details {
+  width: 90%; }
+
+#contactSection .nomargin_para {
+  margin: 0; }
+
+#contactSection .contact_number_letter {
+  color: #203859;
+  font-weight: bold; }
+
+#contactSection .form-group {
+  margin-right: 10px;
+  margin-top: 10px; }
+
+#contactSection .form-control {
+  width: 100%;
+  padding: 16px;
+  font-size: 14px;
+  border: none;
+  color: #999;
+  background-color: #eee;
+  border-radius: 0px; }
+
+#contactSection #right_form {
+  height: 100%; }
+
+#contactSection .submit {
+  padding: 12px;
+  font-size: 20px;
+  border: 2px solid #203859;
+  border-radius: 5px;
+  cursor: pointer; }
+
+#contactSection .submit:hover {
+  background-color: #203859;
+  color: #fff; }
+
+#mapSection h4 {
+  color: #203859; }

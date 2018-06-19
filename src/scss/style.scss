@@ -1,5 +1,4 @@
 // Main Sass File
-
 //Colour Variables
 
 $background-colour: #203859;
@@ -7,7 +6,7 @@ $footer-colour: #16243d;
 $primary-colour: #203859;
 $secondary-colour: #666;
 
-//Homepage//
+//General//
 body{
   background-color: $background-colour;
   color: #fff;
@@ -15,15 +14,22 @@ body{
   line-height: 1.6em;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 500;
-  text-align: justify;
   -webkit-font-smoothing: antialiased;
   padding-top: 65px;
   min-height: 100%;
+  text-align: justify;
+}
+
+h3{
+  font-size: 30px;
+  text-align: left;
 }
 
 hr{
   border-color: $secondary-colour;
 }
+
+//Homepage//
 
 #logo{
   width: 230px;
@@ -34,7 +40,8 @@ hr{
   background-color: #fff;
 }
 
-//Image Strip//
+//Home Section//
+//Home Image Strip//
 #image_strip{
   width: 100%;
   max-height: 400px;
@@ -44,10 +51,92 @@ hr{
   background-size: cover;
 }
 
+//Services Section//
 
-//Welcome Section//
-#welcome{
-  h3{
+#servicesSection{
+  h2{
     font-size: 30px;
+    line-height: normal;
+    letter-spacing: 0.8px;
   }
 }
+
+//About Section//
+ #about_opening{
+   text-align:left;
+ }
+
+
+
+ //Contact Section//
+ #contact{
+      background-color: #fff;
+      color: $secondary-colour;
+      padding-top: 65px;
+      text-align: left;
+
+    .navbar{
+      border-bottom: 1px solid $secondary-colour;
+    }
+ }
+
+ #contactSection{
+   h4{
+     color: $primary-colour;
+   }
+   .contact_details{
+     width: 90%;
+   }
+
+   .nomargin_para{
+     margin: 0;
+   }
+
+   .contact_number_letter{
+     color: $primary-colour;
+     font-weight: bold;
+   }
+
+   .form-group{
+     margin-right: 10px;
+     margin-top: 10px;
+   }
+
+   .form-control{
+     width: 100%;
+     padding: 16px;
+     font-size: 14px;
+     border: none;
+     color: #999;
+     background-color: #eee;
+     border-radius: 0px;
+   }
+
+    #right_form{
+     height: 100%;
+   }
+
+   .submit{
+     padding: 12px;
+     font-size: 20px;
+     border: 2px solid $primary-colour;
+     border-radius: 5px;
+     cursor: pointer;
+     }
+
+     .submit:hover{
+       background-color: $primary-colour;
+       color: #fff;
+     }
+   }
+
+   #mapSection{
+     h4{
+       color: $primary-colour;
+     }
+
+     // .map{
+     //   height: 400px;
+     //   width: auto;
+     // }
+   }

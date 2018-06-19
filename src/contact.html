@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/tiggy_favicon.png"/>
+        <link rel="stylesheet" id="divi-fonts-css" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,latin-ext" type="text/css" media="all">
+        <title>Tiggy Williams | Contact </title>
+    </head>
+
+    <body id="contact">
+      <!--Navbar -->
+      <nav class="navbar fixed-top navbar-expand-md navbar-light">
+        <div class="container">
+            <a href="index.html" class="navbar-brand" width="50"><img src="img/tiggy_logo.png" alt="Tiggy Williams" class="img-fluid" id="logo"></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" id="hamburger">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item  px-2">
+                  <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li class="nav-item  px-2">
+                  <a href="services.html" class="nav-link ">Services</a>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li class="nav-item  px-2">
+                  <a href="about.html" class="nav-link">About Tiggy</a>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li class="nav-item  px-2">
+                  <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!--Get in Touch -->
+
+        <section id="contactSection">
+          <div class="container mt-5 pt-5">
+            <div class="row">
+              <div class="col-lg-8 mb-5 mt-3">
+                <!-- <h4>Pricing</h4>
+                <p>An initial meeting is for both of us to assess if I am the right person to help you or failing that discuss what might be other options for you to move forward and to offer a few initial practical ideas.</p>
+                <p>An initial assessment - £40</p>
+                <p class="nomargin_para">50 minute Individual Counselling&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;£60 or £75, dependent on location.</p>
+                <p class="nomargin_para">90 minute Relationship Counselling&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;£75</p> -->
+                <h4>Get In Touch</h4>
+                  <div class="row">
+                      <div class="col-lg-6" id="left_form">
+                        <form>
+                        <div class="form-group">
+                           <label class="sr-only" for="name"> Name</label>
+                          <input type="text" class="form-control" id="name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                           <label class="sr-only" for="message">Message</label>
+                           <textarea class="form-control" rows="8" placeholder="Message"></textarea>
+                        </div>
+                      </div>
+                      <div class="col-lg-6" id="right_form">
+                        <div class="form-group">
+                           <label class="sr-only" for="email">Email address</label>
+                          <input type="email" class="form-control" id="email" placeholder="Email Address">
+                        </div>
+                        <button class="btn submit ml-auto" type="submit">Submit</button>
+                      </div>
+                    </form>
+                  </div>
+              </div>
+              <div class="col-lg-4 mt-3">
+                <div class="contact_details ml-lg-auto">
+                  <h4>Contact</h4>
+                  <p>For counselling and psychotherapy enquiries please contact:<p>
+                  <p class="nomargin_para"><span class="contact_number_letter">T: </span>01829 730 414</p>
+                  <p class="nomargin_para"><span class="contact_number_letter">M: </span>07989 201 661</p>
+                  <p class="mt-2">If I am unable to take your call, I will get back to you within 24 hours.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="mapSection">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h4>Cheshire</h4>
+                <p>Forest Hill Practice, 29A Forest Rd,, Tarporley, Cheshire. CW6 0HX.</p>
+                <div id="map" style="width:100%;height:400px;"></div>
+              </div>
+              <div class="col-md-6">
+                <h4>Edgbaston</h4>
+                <p>81, Harborne Road, Edgbaston, Birmingham. B15 3HG.</p>
+                <div class="map" id="edgbastonMap">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+  };
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgTA5Cei2VWbraQ0qlcR81y1PYdoc7Hl4&callback=initMap"></script>
+    </body>
+</html>
